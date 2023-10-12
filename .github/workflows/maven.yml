@@ -10,9 +10,9 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "main", "add-group-support" ]
+    branches: [ "main", "add-group-support", "keycloak-21" ]
   pull_request:
-    branches: [ "main", "add-group-support"  ]
+    branches: [ "main", "add-group-support", "keycloak-21"  ]
 
 jobs:
   build:
